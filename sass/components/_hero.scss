@@ -12,7 +12,7 @@
   margin-right: auto;
 }
 
-.hero-title {
+.hero__title {
   position: relative;
   padding-right: 0;
   max-width: 696px;
@@ -28,7 +28,7 @@
   color: var(--hover-text-color);
 }
 
-.hero-button {
+.hero__button {
   transition: var(--animation);
 
   display: inline-block;

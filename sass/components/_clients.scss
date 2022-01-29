@@ -13,11 +13,11 @@
   justify-content: center;
 }
 
-.clients-item + .clients-item {
+.clients-list__item + .clients-list__item {
   margin-left: 30px;
 }
 
-.clients-link {
+.clients-list__link {
   transition: var(--animation);
 
   display: inline-flex;
@@ -34,12 +34,12 @@
   }
 }
 
-.clients-icon {
+.clients-list__icon {
   transition: var(--animation);
   fill: #afb1b8;
 
-  .clients-link:hover &,
-  .clients-link:focus & {
+  .clients-list__link:hover &,
+  .clients-list__link:focus & {
     fill: var(--hover-background-color);
   }
 }

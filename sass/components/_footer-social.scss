@@ -12,16 +12,16 @@
   color: #ffffff;
 }
 
-.footer-social-list {
+.footer-social {
   display: flex;
   margin-top: 20px;
 }
 
-.footer-social-item + .footer-social-item {
+.footer-social__item + .footer-social__item {
   margin-left: 10px;
 }
 
-.footer-social-link {
+.footer-social__link {
   transition: var(--animation);
 
   display: flex;

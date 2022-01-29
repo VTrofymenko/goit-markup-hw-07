@@ -1,8 +1,8 @@
-.our-team {
+.team {
   background-color: #f5f4fa;
 }
 
-.team {
+.team__title {
   text-align: center;
   margin-bottom: 50px;
 
@@ -12,14 +12,14 @@
   letter-spacing: 3%;
 }
 
-.team-list {
+.team__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-bottom: -30px;
 }
 
-.team-list-item {
+.team-list__item {
   width: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
@@ -36,13 +36,13 @@
   padding-bottom: 30px;
 }
 
-.team-list-title {
+.team-list__title {
   text-align: center;
   line-height: calc(19 / 16);
   letter-spacing: 3%;
 }
 
-.team-list-aftertitle {
+.team-list__aftertitle {
   text-align: center;
   margin-top: 10px;
   font-weight: 400;

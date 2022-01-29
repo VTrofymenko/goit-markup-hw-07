@@ -6,7 +6,7 @@
   display: flex;
 }
 
-.contact-link {
+.contact-list__link {
   transition: var(--animation);
 
   padding-top: 32px;
@@ -25,24 +25,15 @@
   }
 }
 
-.mail-icon,
-.tel-icon {
-  .contact-link:hover &,
-  .contact-link:focus & {
+.contact-list__icon {
+  transition: var(--animation);
+  margin-right: 10px;
+  .contact-list__link:hover &,
+  .contact-list__link:focus & {
     fill: var(--hover-background-color);
   }
 }
 
-.mail-icon {
-  transition: var(--animation);
-  margin-right: 10px;
-}
-
-.tel-icon {
-  transition: var(--animation);
-  margin-right: 10px;
-}
-
-.contact-item + .contact-item {
+.contact-list__item + .contact-list__item {
   margin-left: 50px;
 }

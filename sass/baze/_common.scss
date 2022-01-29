@@ -19,9 +19,15 @@ body {
   padding-bottom: 94px;
 }
 
-.current {
+.header-nav--current {
   position: relative;
   color: var(--hover-background-color);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 2%;
 
   &::after {
     position: absolute;

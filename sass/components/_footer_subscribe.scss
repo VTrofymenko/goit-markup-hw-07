@@ -19,7 +19,7 @@
   display: flex;
 }
 
-.subscribe-input {
+.subscribe-form__input {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -35,7 +35,7 @@
   }
 }
 
-.subscribe-button {
+.subscribe-form__button {
   display: flex;
   align-items: center;
   text-align: center;
@@ -63,6 +63,6 @@
   }
 }
 
-.subscribe-icon {
+.subscribe-form__icon {
   margin-left: 10px;
 }
